@@ -1,0 +1,217 @@
+body {
+  padding: 0;
+  margin: 0;
+}
+
+header {
+  display: flex;
+  /*border: 1px solid black;*/
+  padding-bottom: 10px;
+  border-bottom: 1px solid black;
+  align-items: center;
+  font-family: Verdana;
+  font-size: 14px;
+  font-weight: bold;
+  position: fixed;
+  width: 100%;
+  background-color: white;
+}
+
+.logo {
+  /*border: 1px solid black;*/
+  display: flex;
+  align-items: center;
+  flex: 2;
+  color: MediumAquamarine;
+}
+
+.logo span {
+  margin-left: 15px;
+}
+
+.navigation {
+ /*border: 1px solid black;*/
+  flex: 1;
+  display: flex;
+  justify-content: space-around;
+}
+
+.navigation a {
+  color: black;
+}
+
+.container {
+  display: flex;
+  /*border-bottom: 1px solid black;
+  border-right:  1px solid black;
+  border-left:  1px solid black;*/
+  justify-content: space-between;
+  margin-bottom: 78px;
+  padding-top: 116px;
+}
+
+.container .large {
+   width: 630px;
+   display: flex;
+   flex-direction: column;
+   /*border: 1px solid black;*/
+}
+
+.section-one-text, .section-two p, .section-four p, .section-six p, .section-seven-text, .section-eight p {
+  font-family: Georgia;
+  font-size: 17px;
+  color: black;
+}
+
+.section-one-title {
+  display: flex;
+  flex-basis: 300px;
+  background-image: url(images/wine.png);
+  margin-top: 0;
+  font-family: Georgia;
+  font-weight: bold;
+  font-size: 40px;
+  color: white;
+}
+
+.section-one-text {
+  margin-top: 16px;
+  margin-bottom: 16px;
+}
+
+.section-three-title {
+  background-image: url(images/fall.png);
+  display: flex;
+  flex-basis: 300px;
+  font-family: Georgia;
+  font-weight: bold;
+  font-size: 30px;
+  color: white;
+  justify-content: center;
+  margin-top: 80px;
+  margin-right: 10px;
+  text-align: center;
+}
+
+.section-four {
+  margin-left: 20px;
+}
+
+.section-two {
+  margin-right: 10px;
+}
+
+.section-five-title {
+  display: flex;
+  flex-basis: 300px;
+  background-image: url(images/cameraman.png);
+  text-align: center;
+  justify-content: center;
+  font-family: Georgia;
+  font-weight: bold;
+  font-size: 30px;
+  color: white;
+  margin-top: 80px;
+  flex-wrap: wrap;
+  margin-left: 20px;
+}
+
+.section-seven-title {
+  display: flex;
+  flex-basis: 300px;
+  flex-wrap: wrap;
+  justify-content: center;
+  text-align: center;
+  background-image: url(images/cat.png);
+  font-family: Georgia;
+  font-weight: bold;
+  font-size: 30px;
+  color: white;
+  margin-top: 15px;
+}
+
+.section-seven-text {
+  margin-top: 16px;
+  margin-bottom: 16px;
+}
+
+.large-sum {
+  display: flex;
+}
+
+.large-mid {
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+  /*border: 1px solid black;*/
+}
+
+
+.container .medium {
+   width: 300px;
+   display: flex;
+   flex-direction: column;
+    /*border: 1px solid black;*/
+}
+
+.container .small {
+  width: 240px;
+  display: flex;
+  flex-direction: column;
+   /*border: 1px solid black;*/
+   margin-right: 32px;
+}
+
+.small .section-eight h2 {
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    padding: 11px 20px;
+}
+
+.news-bite {
+  justify-content: flex-start;
+  padding: 11px 20px;
+  border-bottom: 1px solid black;
+  background-color: WhiteSmoke;
+  font-family: Verdana;
+  font-size: 12px;
+  color: DimGray;
+}
+
+footer {
+  display: flex;
+  background-color: MediumAquamarine;
+  margin: auto;
+  font-family: Verdana;
+  font-size: 12px;
+  width: 100%;
+  height: 325px;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: auto;
+}
+
+footer .info span {
+  font-family: Georgia;
+  font-size: 16px;
+  font-weight: bold;
+  color: white;
+  padding-right: 25px;
+  border-right: 2px solid white;
+}
+
+footer .info nav {
+  display: inline;
+  padding-left: 25px;
+}
+
+footer .info nav a {
+  color: black;
+  padding: 20px 10px;
+}
+
+footer .footer-sign {
+  margin-top: 20px;
+}
